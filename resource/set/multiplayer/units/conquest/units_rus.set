@@ -318,13 +318,414 @@
 ;|               Wheeled vehicles                 |
 ;|________________________________________________|
 
+{"m72"
+	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_1:1) crew2(mgun_2:1))
+	{cost 60}
+}
+{"gaz_aaa"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+	{cost 25} {not_for_player_sale 1}
+}
+{"gaz_aaa_supply"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
+	{cost 190}
+}
+{"gaz_fuel"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
+	{cost 90}
+}
+{"gaz_aaa_maximx4"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
+	{cost 150}
+}
+{"gaz_aaa_72k"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(6) crew(artilleryman:4))
+	{cost 240}
+}
+{"yag10_29k"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(16) crew(artilleryman:4))
+	{cost 480}
+}
+{"zis5"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+	{cost 20}
+}
+{"zis5eng"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew1(engineer_1:1) crew2(engineer_2:1))
+	{cost 80}
+}
+{"zis5_dshk"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
+	{cost 170}
+}
+{"zis6_bm8_48"
+	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(28) crew(tankman:2))
+	{cost 850}
+}
+{"zis6_bm13_16"
+	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(33) crew(tankman:2))
+	{cost 1100}
+}
+{"bm13_studebaker"
+	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(33) crew(tankman:2))
+	{cost 1100}
+}
+{"bm31_12"
+	("vehicle"  side(rus) period(mid) min_stage(9) max_stage(99) cw(2) cp(53) crew(tankman:2))
+	{cost 1600}
+}
+{"gaz67"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
+	{cost 15} {not_for_player_sale 1}
+}
+{"gaz67b"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(0) crew(mgun_2:2))
+	{cost 70}
+}
+{"fai_m"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 140}
+}
+{"ba20"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 150}
+}
+{"t20"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(2) cp(4) crew(tankman:2))
+	{cost 90}
+}
+{"ba6"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 270}
+}
+{"ba10"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 280}
+}
+{"ba64"
+	("vehicle2" side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(4) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 150}
+}
+{"universal_carrier_rus"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew1(rifleman_1:2) crew2(tank_commander:1))
+	{cost 160}
+}
+{"mmg_carrier_rus"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew1(rifleman_1:2) crew2(tank_commander:1))
+	{cost 175}
+}
+{"m3a1e1_scout_mgun"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(4) crew(rifleman_1:2))
+	{cost 200}
+}
+
 
 ;_________________________________________________
 ;|        Main Battle Tanks and SPGs              |
 ;|________________________________________________|
 
 
+;LIGHT
+{"t27"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(4) crew(tankman:2))
+	{cost 90}
+}
+{"t37a"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(6) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 120}
+}
+{"t40"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(12) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 220}
+}
+{"t30"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(12) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 280}
+}
+{"t60"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(15) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 290}
+}
+{"t60_bm8_24"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(28) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 850}
+}
+{"t50"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(21) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 350}
+}
+{"t70"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(18) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 320}
+}
+{"t70m"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(18) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 320}
+}
+{"bt2_da2"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(10) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 150}
+}
+{"bt2"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 250}
+}
+{"bt5"
+	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(94) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 290}
+}
+{"bt7"
+	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(95) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 300}
+}
+{"bt7a"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 320}
+}
+{"t26_31"
+	("vehicle2" side(rus) period(mid) min_stage(91) max_stage(99) cw(4) cp(5) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 120}
+}
+{"kht26"
+	("vehicle2" side(rus) period(mid) min_stage(92) max_stage(94) cw(4) cp(12) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 300}
+}
+{"t26_33"
+	("vehicle2" side(rus) period(mid) min_stage(92) max_stage(93) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 250}
+}
+{"t26_39"
+	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(94) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 250}
+}
+{"kht130"
+	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(96) cw(4) cp(12) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 300}
+}
+{"m3_stuart_late_rus"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(98) cw(4) cp(16) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 310}
+}
+{"m3a1_stuart_rus"
+	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(4) cp(16) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 310}
+}
+{"valentine2"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(99) cw(4) cp(21) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 330}
+}
+{"valentine7"
+	("vehicle2" side(rus) period(mid) min_stage(97) max_stage(99) cw(4) cp(21) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 380}
+}
+{"valentine9"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(21) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 450}
+}
 
+;MEDIUM
+{"m3_lee_rus"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(99) cw(6) cp(23) crew1(tankman:6) crew2(tank_commander:1))
+	{cost 600}
+}
+{"m4a2_75_early_rus"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 520}
+}
+{"m4a2_75_late_rus"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 600}
+}
+{"m4a2_76w_early_rus"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 710}
+}
+{"m4a2_76w_late_rus"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 720}
+}
+{"t28"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(6) cp(24) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 330}
+}
+{"t28_38"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(6) cp(24) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 380}
+}
+{"t28e"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(6) cp(24) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 400}
+}
+{"t3476_40"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 420}
+}
+{"t3476_41"
+	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(98) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 480}
+}
+{"t3476_41e"
+	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(98) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 550}
+}
+{"t3457_41"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 550}
+}
+{"t3476_42"
+	("vehicle2" side(rus) period(mid) min_stage(98) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 520}
+}
+{"t3476_43"
+	("vehicle2" side(rus) period(mid) min_stage(98) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 530}
+}
+{"t3457_43"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 600}
+}
+{"t3476_43_flame"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 620}
+}
+{"t3485_44"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 700}
+}
+{"t3485_44a"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 710}
+}
+{"t3485_44b"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 710}
+}
+{"t3485_44_flame"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 790}
+}
+{"t3485_44a_flame"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 800}
+}
+
+
+
+;HEAVY
+{"churchill3"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 600}
+}
+{"t35"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(30) crew1(tankman:9) crew2(tank_commander:1))
+	{cost 400}
+}
+{"t35_late"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(30) crew1(tankman:9) crew2(tank_commander:1))
+	{cost 450}
+}
+{"smk"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(33) crew1(tankman:6) crew2(tank_commander:1))
+	{cost 640}
+}
+{"kv1_39"
+	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 600}
+}
+{"kv1_40"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 630}
+}
+{"kv1_40e"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 680}
+}
+{"kv1_41"
+	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 680}
+}
+{"kv8"
+	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(8) cp(41) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 680}
+}
+{"kv1_42"
+	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 740}
+}
+{"kv2_40"
+	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(98) cw(8) cp(39) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 1000}
+}
+{"kv1s"
+	("vehicle2" side(rus) period(mid) min_stage(98) max_stage(99) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 700}
+}
+{"kv85"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(46) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 1000}
+}
+{"is1_43"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(46) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 1050}
+}
+{"is2_43"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(51) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 1350}
+}
+{"is2_44"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(51) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 1400}
+}
+{"is2_45"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(51) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 1450}
+}
+
+;SPG
+{"su26"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(98) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 380}
+}
+{"zis30"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(4) cp(21) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 450}
+}
+{"su76"
+	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(99) cw(4) cp(21) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 440}
+}
+{"su85"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 650}
+}
+{"su85m"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(36) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 720}
+}
+{"su100"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(41) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 1150}
+}
+{"su122"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 750}
+}
+{"su152"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(45) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 1050}
+}
+{"isu122s"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(45) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 1150}
+}
+{"isu152"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(45) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 1250}
+}
+{"conquest_blank"
+	("vehicle" 	side(rus) period(mid) min_stage(1) max_stage(99) crew(tankman:0) cw(0) cp(0))
+	{cost 0} {not_for_player_sale 1}
+}
 
 ;_______________________________________________
 ;|					Aircraft					|

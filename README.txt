@@ -8,8 +8,8 @@ Dynamic Conquest/Campaign by editing the conquest preset under:
   set/multiplayer/games/campaing_capture_the_flag.set
 
 Changes:
-- Only infantry and emplacement armies can be fielded. No vehicles or tanks. Airstriks can still be called in. 
-- I may be able to fine tune it in the future to include light vehicles, or no artillery. or only level 1-2 artillery. 
+- Only infantry and emplacement armies can be fielded. light vehicles (trucks, cars, transports, supply). Airstriks can still be called in. 
+- could make other versions that are era specific
   
 
 Install:

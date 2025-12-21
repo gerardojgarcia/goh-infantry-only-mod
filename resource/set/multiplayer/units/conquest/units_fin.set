@@ -399,6 +399,202 @@
 ;|               Wheeled vehicles                 |
 ;|________________________________________________|
 
+{"m42_truppenfahrrad"
+	("vehicle"  side(fin) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman:1))
+	{cost 2} {round_multiple 1.0}
+}
+{"latil_m2tl6"
+	("vehicle"  side(fin) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman:1))
+	{cost 20}
+}
+{"volvo_127d"
+	("vehicle"  side(fin) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman:1))
+	{cost 20}
+}
+{"ford_v3000"
+	("vehicle"  side(fin) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman:1))
+	{cost 20}
+}
+{"ford_v3000_ammo"
+	("vehicle"  side(fin) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman:1))
+	{cost 190}
+}
+{"ford_v3000_fuel"
+	("vehicle"  side(fin) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman:1))
+	{cost 90}
+}
+{"ford_v3000_eng"
+	("vehicle"  side(fin) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(engineer_builder:2))
+	{cost 80}
+}
+{"ford_3ton_breda"
+	("vehicle"  side(fin) period(mid) min_stage(1) max_stage(8) cw(2) cp(6) crew(artilleryman:3))
+	{cost 230}
+}
+{"volvo_127d_itk40"
+	("vehicle"  side(fin) period(mid) min_stage(9) max_stage(99) cw(2) cp(6) crew(artilleryman:3))
+	{cost 230}
+}
+{"t20_fin"
+	("vehicle"  side(fin) period(mid) min_stage(1) max_stage(99) cw(2) cp(4) crew(tankman:2))
+	{cost 90}
+}
+{"ba6_fin"
+	("vehicle2" side(fin) period(mid) min_stage(2) max_stage(5) cw(2) cp(10) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 270}
+}
+{"ba10_fin"
+	("vehicle2" side(fin) period(mid) min_stage(4) max_stage(6) cw(2) cp(10) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 280}
+}
+{"ba10_fin_mid"
+	("vehicle2" side(fin) period(mid) min_stage(6) max_stage(99) cw(2) cp(10) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 300}
+}
+{"ba10m_fin"
+	("vehicle2" side(fin) period(mid) min_stage(8) max_stage(99) cw(2) cp(10) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 320}
+}
+{"l182"
+	("vehicle2" side(fin) period(mid) min_stage(1) max_stage(5) cw(2) cp(7) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 250}
+}
+
+;_________________________________________________
+;|        Main Battle Tanks and SPGs              |
+;|________________________________________________|
+
+
+;LIGHT
+
+{"ft17_mg_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(4) cp(6) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 100}
+}
+{"t37a_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(4) cp(6) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 120}
+}
+{"ft17_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(4) cp(14) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 150}
+}
+{"vickers_6t_altb"
+	("vehicle2" side(fin) period(mid) min_stage(91) max_stage(95) cw(4) cp(16) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 270}
+}
+{"t26e"
+	("vehicle2" side(fin) period(mid) min_stage(94) max_stage(95) cw(4) cp(16) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 330}
+}
+{"t26e_mid"
+	("vehicle2" side(fin) period(mid) min_stage(96) max_stage(99) cw(4) cp(16) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 330}
+}
+{"t26_33_fin"
+	("vehicle2" side(fin) period(mid) min_stage(93) max_stage(95) cw(4) cp(17) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
+	{cost 250}
+}
+{"t26_33_fin_mid"
+	("vehicle2" side(fin) period(mid) min_stage(96) max_stage(99) cw(4) cp(17) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
+	{cost 250}
+}
+{"t26c"
+	("vehicle2" side(fin) period(mid) min_stage(96) max_stage(99) cw(4) cp(17) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
+	{cost 330}
+}
+{"bt5_fin"
+	("vehicle2" side(fin) period(mid) min_stage(94) max_stage(95) cw(4) cp(17) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
+	{cost 290}
+}
+{"bt5_fin_mid"
+	("vehicle2" side(fin) period(mid) min_stage(96) max_stage(99) cw(4) cp(17) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
+	{cost 300}
+}
+{"kht130_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(4) cp(12) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
+	{cost 300}
+}
+{"t50_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(4) cp(21) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 350}
+}
+{"l62"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(4) cp(16) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 400}
+}
+{"bt42"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(4) cp(22) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
+	{cost 640}
+}
+
+
+;MEDIUM
+{"t28_38_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(6) cp(24) crew1(tankman_vet:5) crew2(tank_commander_vet:1))
+	{cost 380}
+}
+{"t28e_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(6) cp(24) crew1(tankman_vet:5) crew2(tank_commander_vet:1))
+	{cost 380}
+}
+{"t28e_fin_late"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(6) cp(24) crew1(tankman_vet:5) crew2(tank_commander_vet:1))
+	{cost 380}
+}
+{"t3476_41_fin"
+	("vehicle2" side(fin) period(mid) min_stage(96) max_stage(98) cw(6) cp(31) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 480}
+}
+{"t3476_41_fin_late"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
+	{cost 480}
+}
+{"panzer4j_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 600}
+}
+{"t3485_44_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman_vet:4) crew2(tank_commander_vet:1))
+	{cost 765}
+}
+
+;HEAVY
+{"kv1_40e_fin"
+	("vehicle2" side(fin) period(mid) min_stage(95) max_stage(98) cw(8) cp(40) crew1(tankman_vet:4) crew2(tank_commander_vet:1))
+	{cost 650}
+}
+{"kv1_40e_fin_late"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(8) cp(40) crew1(tankman_vet:4) crew2(tank_commander_vet:1))
+	{cost 660}
+}
+{"kv1_42_fin"
+	("vehicle2" side(fin) period(mid) min_stage(96) max_stage(98) cw(8) cp(40) crew1(tankman_vet:4) crew2(tank_commander_vet:1))
+	{cost 740}
+}
+{"kv1_42_fin_late"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(8) cp(40) crew1(tankman_vet:4) crew2(tank_commander_vet:1))
+	{cost 750}
+}
+
+;SPG
+{"stug3g_fin_early"
+	("vehicle2" side(fin) period(mid) min_stage(97) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 630}
+}
+{"stug3g_fin"
+	("vehicle2" side(fin) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 640}
+}
+{"isu152_fin"
+	("vehicle2" side(fin) period(mid) min_stage(92) max_stage(99) cw(8) cp(45) crew1(tankman_vet:4) crew2(tank_commander_vet:1))
+	{cost 1250}
+}
+
+{"conquest_blank"
+	("vehicle" side(fin) period(mid) min_stage(1) max_stage(99) crew(tankman:0) cw(0) cp(0))
+	{cost 0} {not_for_player_sale 1}
+}
 
 ;_______________________________________________
 ;|					Aircraft					|

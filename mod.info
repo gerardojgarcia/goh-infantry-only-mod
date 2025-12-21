@@ -2,7 +2,7 @@
 
 {mod
 	{name "Conquest Restriction – Infantry + Artillery Only"}
-	{desc "Restricts Dynamic Conquest/Campaign unit categories by modifying set/multiplayer/games presets: available = infantry + artillery (optionally light)."}
+	{desc "Restricts Dynamic Conquest/Campaign unit categories by modifying set/multiplayer/games presets: available = infantry + artillery + light vehicles."}
 	{minGameVersion "1.050.0"}
 	{maxGameVersion "1.080.0"}
 }
