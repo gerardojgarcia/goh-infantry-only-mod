@@ -149,6 +149,7 @@
 }
 
 ;AUTOMATIC WEAPONRY
+
 {"heavy_mg_m1917_30cal"
 	("emplacement" side(usa) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew(mg_crew:0) condition(barricade) action(heavy_mg_m1917_30cal))
 	{cost 75}{not_for_player_sale 1}
@@ -165,46 +166,54 @@
 	("vehicle2" side(usa) period(mid) min_stage(2) max_stage(99) crew1(mg_crew:1) crew2(mg_crew_asst:1) cw(2) cp(2))
 	{cost 135}
 }
+
+; Light AA (KEEP)
 {"50cal_quad_m45"
 	("vehicle2" side(usa) period(mid) min_stage(2) max_stage(99) crew1(mg_crew:1) crew2(mg_crew_asst:1) cw(1) cp(6))
 	{cost 200}
 }
+
+; Medium/Heavy AA – GATED
 {"40mm_m1"
-	("vehicle"  side(usa) period(mid) min_stage(3) max_stage(99) crew(crew:3) cw(1) cp(9))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:3) cw(1) cp(9))
 	{cost 300}
 }
 {"90mm_m1a1"
-	("vehicle"  side(usa) period(mid) min_stage(4) max_stage(99) crew(crew:5) cw(1) cp(25))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:5) cw(1) cp(25))
 	{cost 800}
 }
 
-; AT WEAPONRY
+; AT WEAPONRY (LIGHT KEEP)
+
 {"37mm_m3a1"
 	("vehicle"  side(usa) period(mid) min_stage(1) max_stage(99) crew(crew:4) cw(1) cp(6))
 	{cost 204}
 }
+
+; Medium/Heavy AT – GATED
 {"57mm_m1"
-	("vehicle"  side(usa) period(mid) min_stage(5) max_stage(7) crew(crew:4) cw(1) cp(10))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(10))
 	{cost 400}
 }
 {"57mm_m1_late"
-	("vehicle"  side(usa) period(mid) min_stage(7) max_stage(99) crew(crew:4) cw(1) cp(10))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(10))
 	{cost 410}
 }
 {"75mm_m1897"
-	("vehicle"  side(usa) period(mid) min_stage(3) max_stage(99) crew(crew:4) cw(1) cp(16))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(16))
 	{cost 370}
 }
 {"76mm_m5_m1"
-	("vehicle"  side(usa) period(mid) min_stage(5) max_stage(7) crew(crew:4) cw(1) cp(21))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(21))
 	{cost 470}
 }
 {"76mm_m5_m6"
-	("vehicle"  side(usa) period(mid) min_stage(7) max_stage(99) crew(crew:4) cw(1) cp(21))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(21))
 	{cost 500}
 }
 
-;HOWITZERS
+; HOWITZERS / INDIRECT (LIGHT KEEP)
+
 {"60mm_m2"
 	("vehicle"  side(usa) period(mid) min_stage(4) max_stage(99) crew(crew:2) cw(1) cp(4))
 	{cost 170}
@@ -213,10 +222,14 @@
 	("vehicle"  side(usa) period(mid) min_stage(2) max_stage(99) crew(crew:2) cw(1) cp(8))
 	{cost 270}
 }
+
+; Heavy mortars / artillery – GATED
 {"107mm_m2"
-	("vehicle"  side(usa) period(mid) min_stage(5) max_stage(99) crew(crew:2) cw(1) cp(16))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:2) cw(1) cp(16))
 	{cost 420}
 }
+
+; Light pack howitzers (KEEP)
 {"75mm_m1a1"
 	("vehicle"  side(usa) period(mid) min_stage(1) max_stage(99) crew(82nd_crew:4) cw(1) cp(10))
 	{cost 380}
@@ -225,160 +238,64 @@
 	("vehicle"  side(usa) period(mid) min_stage(3) max_stage(99) crew(crew:4) cw(1) cp(10))
 	{cost 380}
 }
+
+; Divisional / heavy artillery – GATED
 {"105mm_m2a1"
-	("vehicle"  side(usa) period(mid) min_stage(3) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 750}
 }
 {"105mm_m3"
-	("vehicle"  side(usa) period(mid) min_stage(3) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 700}
 }
 {"114mm_m1"
-	("vehicle"  side(usa) period(mid) min_stage(2) max_stage(99) crew(artilleryman:5) cw(1) cp(20))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(20))
 	{cost 850}
 }
 {"155mm_schneider_us"
-	("vehicle"  side(usa) period(mid) min_stage(2) max_stage(99) crew(artilleryman:4) cw(1) cp(31))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(31))
 	{cost 980}
 }
 {"155mm_m1"
-	("vehicle"  side(usa) period(mid) min_stage(5) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 1000}
 }
 {"155mm_gpf_us"
-	("vehicle"  side(usa) period(mid) min_stage(3) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 1100}
 }
 {"155mm_m1a1_longtom"
-	("vehicle"  side(usa) period(mid) min_stage(5) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 1200}
 }
 {"203mm_m1"
-	("vehicle"  side(usa) period(mid) min_stage(5) max_stage(99) crew(artilleryman:5) cw(1) cp(35))
+	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(35))
 	{cost 1500}
 }
 
 ;_________________________________________________
 ;|               Wheeled vehicles                 |
+;|     (Support-only: transport/logistics/eng)    |
 ;|________________________________________________|
+
+; --- KEEP: unarmed transport / logistics / engineers ---
 
 {"willys_mb"
 	("vehicle"  side(usa) period(mid) min_stage(1) max_stage(99) crew(driver:1) cw(1) cp(1))
 	{cost 15}
 }
-{"willys_mb_30cal"
-	("vehicle2" side(usa) period(mid) min_stage(2) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(1))
-	{cost 75}
-}
-{"willys_mb_50cal"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(3))
-	{cost 95}
-}
-{"ford_gpa"
-	("vehicle2" side(usa) period(mid) min_stage(5) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(1))
-	{cost 75}
-}
 {"wc51"
 	("vehicle"  side(usa) period(mid) min_stage(1) max_stage(99) crew(driver:1) cw(1) cp(1))
 	{cost 20}
-}
-{"wc52_50cal"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(3))
-	{cost 95}
-}
-{"m6_gmc"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(99) crew1(driver:1) crew2(crew:3) cw(1) cp(8))
-	{cost 250}
 }
 {"cckw"
 	("vehicle"  side(usa) period(mid) min_stage(1) max_stage(99) crew(driver:1) cw(1) cp(1))
 	{cost 20}
 }
+
 {"m3a1_transport"
 	("vehicle"  side(usa) period(mid) min_stage(1) max_stage(99) crew(driver:1) cw(1) cp(2))
 	{cost 20}
-}
-{"m3a1_scout"
-	("vehicle2" side(usa) period(mid) min_stage(1) max_stage(99) crew1(cav_driver:1) crew2(cav_gunner:2) cw(2) cp(2))
-	{cost 135}
-}
-{"m3a1_commander"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(99) crew1(cav_driver:1) crew2(cav_gunner:2) cw(2) cp(2))
-	{cost 160} {not_for_player_sale 1}
-}
-{"m5_hst"
-	("vehicle2" side(usa) period(mid) min_stage(1) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(4))
-	{cost 100}
-}
-{"m2_halftrack"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(8) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(6))
-	{cost 135}
-}
-;{"m2a1_halftrack"
-;	("vehicle2" side(usa) period(mid) min_stage(1) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(6))
-;	{cost 135}
-;}
-{"m3_halftrack"
-	("vehicle2" side(usa) period(mid) min_stage(5) max_stage(10) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(4))
-	{cost 85}
-}
-{"m3a1_halftrack"
-	("vehicle2" side(usa) period(mid) min_stage(7) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(6))
-	{cost 105}
-}
-{"m13_mgmc"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(99) crew1(vehicle_crew_m1:2) crew2(vehicle_com:1) cw(2) cp(9))
-	{cost 210}
-}
-{"m15a1_cgmc"
-	("vehicle2" side(usa) period(mid) min_stage(4) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(11))
-	{cost 325}
-}
-{"m16_mgmc"
-	("vehicle2" side(usa) period(mid) min_stage(5) max_stage(99) crew1(vehicle_crew_m1:2) crew2(vehicle_com:1) cw(2) cp(11))
-	{cost 220}
-}
-{"m4_mortar_carrier"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(5) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 375}
-}
-{"m4a1_mortar_carrier"
-	("vehicle2" side(usa) period(mid) min_stage(5) max_stage(7) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 375}
-}
-{"m21_mortar_carrier"
-	("vehicle2" side(usa) period(mid) min_stage(7) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 400}
-}
-
-{"m3_gmc"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(5) crew1(vehicle_crew_m1:3) crew2(vehicle_com:1) cw(2) cp(21))
-	{cost 375}
-}
-{"m3a1_gmc"
-	("vehicle2" side(usa) period(mid) min_stage(4) max_stage(99) crew1(vehicle_crew_m1:3) crew2(vehicle_com:1) cw(2) cp(21))
-	{cost 375}
-}
-{"t30_hmc"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(15))
-	{cost 375}
-}
-{"t19_hmc"
-	("vehicle2" side(usa) period(mid) min_stage(4) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(25))
-	{cost 750}
-}
-
-{"m20"
-	("vehicle2" side(usa) period(mid) min_stage(3) max_stage(99) crew1(vehicle_crew:2) crew2(vehicle_com:1) cw(2) cp(5))
-	{cost 155}
-}
-{"m8_greyhound_early"
-	("vehicle2" side(usa) period(mid) min_stage(4) max_stage(5) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 300}
-}
-{"m8_greyhound"
-	("vehicle2" side(usa) period(mid) min_stage(5) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 310}
 }
 
 {"cckw_art_ammo"
@@ -400,6 +317,117 @@
 {"cckw_engineer_late"
 	("vehicle"  side(usa) period(mid) min_stage(1) max_stage(99) crew(engineer_builder:2) cw(1) cp(6))
 	{cost 140}
+}
+
+; --- GATED: armed jeeps / armed trucks / combat halftracks / armored cars / gun carriers ---
+
+{"willys_mb_30cal"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(1))
+	{cost 75}
+}
+{"willys_mb_50cal"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(3))
+	{cost 95}
+}
+{"ford_gpa"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(1))
+	{cost 75}
+}
+{"wc52_50cal"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(3))
+	{cost 95}
+}
+
+; Combat AT truck
+{"m6_gmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(crew:3) cw(1) cp(8))
+	{cost 250}
+}
+
+; Armed scout cars / armored cars
+{"m3a1_scout"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(cav_driver:1) crew2(cav_gunner:2) cw(2) cp(2))
+	{cost 135}
+}
+{"m3a1_commander"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(cav_driver:1) crew2(cav_gunner:2) cw(2) cp(2))
+	{cost 160} {not_for_player_sale 1}
+}
+{"m20"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:2) crew2(vehicle_com:1) cw(2) cp(5))
+	{cost 155}
+}
+{"m8_greyhound_early"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
+	{cost 300}
+}
+{"m8_greyhound"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
+	{cost 310}
+}
+
+; Halftracks (combat/support weapons) – GATED
+{"m5_hst"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(4))
+	{cost 100}
+}
+{"m2_halftrack"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(6))
+	{cost 135}
+}
+{"m3_halftrack"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(4))
+	{cost 85}
+}
+{"m3a1_halftrack"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(6))
+	{cost 105}
+}
+
+; AA halftracks – GATED
+{"m13_mgmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:2) crew2(vehicle_com:1) cw(2) cp(9))
+	{cost 210}
+}
+{"m15a1_cgmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(11))
+	{cost 325}
+}
+{"m16_mgmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:2) crew2(vehicle_com:1) cw(2) cp(11))
+	{cost 220}
+}
+
+; Mortar carriers – GATED
+{"m4_mortar_carrier"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
+	{cost 375}
+}
+{"m4a1_mortar_carrier"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
+	{cost 375}
+}
+{"m21_mortar_carrier"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
+	{cost 400}
+}
+
+; Gun motor carriages / SPG – GATED
+{"m3_gmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:3) crew2(vehicle_com:1) cw(2) cp(21))
+	{cost 375}
+}
+{"m3a1_gmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:3) crew2(vehicle_com:1) cw(2) cp(21))
+	{cost 375}
+}
+{"t30_hmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(15))
+	{cost 375}
+}
+{"t19_hmc"
+	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(25))
+	{cost 750}
 }
 
 

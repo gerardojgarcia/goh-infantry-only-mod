@@ -223,7 +223,8 @@
 	{cost 750}
 }
 
-; AT WEAPONRY
+; AT WEAPONRY (LIGHT: keep smaller AT guns, remove 17-pdr as "heavy AT")
+
 {"37mm_qf_mk1"
 	("vehicle"  side(eng) period(early) min_stage(2) max_stage(3) crew(artilleryman:4) cw(1) cp(6))
 	{cost 170}
@@ -260,24 +261,28 @@
 	("vehicle"  side(eng) period(late) min_stage(8) max_stage(99) crew(artilleryman:4) cw(1) cp(10))
 	{cost 440}
 }
+
+; 17-pounders (treat as heavy AT → gated out for "light emplacements")
 {"76mm_qf17_25"
-	("vehicle"  side(eng) period(mid) min_stage(8) max_stage(8) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 625}
 }
 {"76mm_qf17_early"
-	("vehicle"  side(eng) period(late) min_stage(9) max_stage(9) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 675}{not_for_player_sale 1}
 }
 {"76mm_qf17_mid"
-	("vehicle"  side(eng) period(late) min_stage(10) max_stage(10) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 700}{not_for_player_sale 1}
 }
 {"76mm_qf17_late"
-	("vehicle"  side(eng) period(late) min_stage(11) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 725}
 }
 
-;HOWITZERS
+
+; HOWITZERS / INDIRECT (LIGHT: keep mortars + small pack gun; gate heavy artillery + rockets)
+
 {"81mm_ml3_early"
 	("vehicle"  side(eng) period(early) min_stage(1) max_stage(8) crew(crew:2) cw(1) cp(8))
 	{cost 225}
@@ -294,90 +299,93 @@
 	("vehicle"  side(eng) period(mid) min_stage(9) max_stage(99) crew(artilleryman:4) cw(1) cp(10))
 	{cost 380}
 }
+
+; 25-pounders + larger field howitzers (gate out for "light emplacements")
 {"84mm_qf18_2pa"
-	("vehicle"  side(eng) period(early) min_stage(1) max_stage(3) crew(artilleryman:4) cw(1) cp(16))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(16))
 	{cost 430}
 }
 {"84mm_qf18_5p"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(3) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 600}
 }
 {"88mm_qf25_mk1_4p"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(5) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 750}
 }
 {"88mm_qf25_mk2"
-	("vehicle"  side(eng) period(mid) min_stage(4) max_stage(9) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 750}
 }
 {"88mm_qf25_mk2_late"
-	("vehicle"  side(eng) period(late) min_stage(9) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 750}
 }
 {"94mm_qf_how_early"
-	("vehicle"  side(eng) period(late) min_stage(1) max_stage(5) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 340}
 }
 {"94mm_qf_how"
-	("vehicle"  side(eng) period(late) min_stage(6) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 360}
 }
 {"114mm_qf_how_wooden"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(2) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 625}{not_for_player_sale 1}
 }
 {"114mm_qf_how"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(7) crew(artilleryman:4) cw(1) cp(21))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
 	{cost 650}
 }
 {"114mm_bl_4_5_mk1"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(7) crew(artilleryman:5) cw(1) cp(20))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(20))
 	{cost 850}
 }
 {"114mm_bl_4_5"
-	("vehicle"  side(eng) period(mid) min_stage(4) max_stage(99) crew(artilleryman:5) cw(1) cp(20))
+	("vehicle"  side(eng) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(20))
 	{cost 850}
 }
 {"140mm_bl_5_5"
-	("vehicle"  side(eng) period(mid) min_stage(7) max_stage(10) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(eng) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 980}
 }
 {"140mm_bl_5_5_late"
-	("vehicle"  side(eng) period(late) min_stage(10) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 980}
 }
 {"152mm_bl_6_mk19"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(2) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 980}
 }
 {"152mm_bl_6"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(7) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 980}
 }
 {"155mm_m1a1_longtom_eng"
-	("vehicle"  side(eng) period(late) min_stage(9) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 1200}
 }
 {"183mm_bl_7_2"
-	("vehicle"  side(eng) period(mid) min_stage(7) max_stage(9) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(eng) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 1300}
 }
 {"183mm_bl_7_2_mk6"
-	("vehicle"  side(eng) period(late) min_stage(9) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
 	{cost 1500}
 }
 {"203mm_bl_8"
-	("vehicle"  side(eng) period(early) min_stage(2) max_stage(7) crew(artilleryman:5) cw(1) cp(35))
+	("vehicle"  side(eng) period(early) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(35))
 	{cost 1400}
 }
 {"76mm_land_mattress"
-	("vehicle"  side(eng) period(late) min_stage(10) max_stage(99) crew(artilleryman:4) cw(1) cp(31))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(31))
 	{cost 1000}
 }
 
-;_________________________________________________
-;|               Wheeled vehicles                 |
-;|________________________________________________|
+
+;|               Wheeled vehicles (LIGHT VEHICLES + SUPPLY TRUCKS) |
+;|_______________________________________________________________|
+
 {"willys_mb_eng"
 	("vehicle"  side(eng) period(mid) min_stage(4) max_stage(99) crew(driver:1) cw(1) cp(1))
 	{cost 15}
@@ -390,6 +398,8 @@
 	("vehicle2" side(eng) period(mid) min_stage(7) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(1))
 	{cost 75}
 }
+
+; Supply / logistics trucks (KEEP)
 {"bedford_oyd"
 	("vehicle"  side(eng) period(mid) min_stage(1) max_stage(10) crew(driver:1) cw(1) cp(1))
 	{cost 20}
@@ -406,6 +416,7 @@
 	("vehicle"  side(eng) period(mid) min_stage(1) max_stage(10) crew(r_eng_builder:2) cw(1) cp(4))
 	{cost 100}
 }
+
 {"bedford_qlt"
 	("vehicle"  side(eng) period(late) min_stage(7) max_stage(99) crew(driver:1) cw(1) cp(1))
 	{cost 20}
@@ -418,20 +429,23 @@
 	("vehicle"  side(eng) period(late) min_stage(7) max_stage(99) crew(r_eng_builder:2) cw(1) cp(4))
 	{cost 100}
 }
+
 {"morris_c8"
 	("vehicle"  side(eng) period(mid) min_stage(1) max_stage(99) crew(driver:1) cw(1) cp(1))
 	{cost 20}
 }
+
+; AA truck (GATE OUT for light-vehicles-only)
 {"morris_c9_aa"
-	("vehicle"  side(eng) period(late) min_stage(1) max_stage(99) crew(artilleryman:4) cw(2) cp(8))
+	("vehicle"  side(eng) period(late) min_stage(99) max_stage(99) crew(artilleryman:4) cw(2) cp(8))
 	{cost 300}
 }
 
+; Light armored cars / recon (KEEP)
 {"morris_cs9"
 	("vehicle2" side(eng) period(early) min_stage(1) max_stage(4) crew1(vehicle_crew:3) crew2(vehicle_com_sgt:1) cw(2) cp(3))
 	{cost 80}
 }
-
 {"daimler_dingo_boys"
 	("vehicle2" side(eng) period(early) min_stage(1) max_stage(9) crew1(vehicle_crew:1) crew2(vehicle_com_cpl:1) cw(2) cp(3))
 	{cost 70}
@@ -457,6 +471,10 @@
 	("vehicle2" side(eng) period(late) min_stage(9) max_stage(99) crew1(vehicle_crew:2) crew2(vehicle_com_cpl:1) cw(2) cp(2))
 	{cost 75}
 }
+
+; Heavier armored cars in this list (still wheeled). Keeping by default because you said "light vehicles"
+; If you want to exclude “medium/heavy armored cars”, we can also gate these:
+; humber_mk2, humber_mk4, daimler_mk1/2, aec_mk1/2/3, staghound_mk1/2/3/mkaa
 {"humber_mk2"
 	("vehicle2" side(eng) period(mid) min_stage(5) max_stage(9) crew1(vehicle_crew:2) crew2(vehicle_com_cpl:1) cw(2) cp(7))
 	{cost 170}
@@ -511,6 +529,7 @@
 	{cost 250}
 }
 
+; Carriers / halftracks (KEEP — these often matter for reinforcement-stage chains)
 {"bren_carrier"
 	("vehicle2" side(eng) period(early) min_stage(1) max_stage(5) crew1(driver:1) crew2(crew:1) cw(2) cp(3))
 	{cost 65}{not_for_player_sale 1}
@@ -581,6 +600,8 @@
 	("vehicle2" side(eng) period(late) min_stage(9) max_stage(99) crew1(driver:1) crew2(crew:1) cw(2) cp(4))
 	{cost 145}
 }
+
+; Amphibious (not wheeled, but present in the excerpt). Keep or gate depending on your rules.
 {"lvt4_eng"
 	("vehicle2" side(eng) period(late) min_stage(11) max_stage(99) crew1(driver:1) crew2(crew:5) cw(4) cp(4))
 	{cost 180}

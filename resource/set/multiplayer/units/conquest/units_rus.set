@@ -156,8 +156,8 @@
 
 ;_________________________________________________
 ;|                  Emplacements                  |
+;|      (Infantry + light emplacements only)      |
 ;|________________________________________________|
-
 
 {"inf_crate_rus"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:2))
@@ -168,7 +168,10 @@
 	{cost 150}
 }
 
-;AUTOMATIC WEAPONRY
+;========================
+; AUTOMATIC WEAPONRY (KEEP)
+;========================
+
 {"heavy_mg_maxim"
 	("emplacement" side(rus) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew(mg_crew:0) condition(barricade) action(heavy_mg_maxim))
 	{cost 75}{not_for_player_sale 1}
@@ -193,6 +196,8 @@
 	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(2) crew1(mg_crew:1) crew2(mg_crew_asst:1))
 	{cost 150}
 }
+
+; Light AA (KEEP)
 {"25mm_72k"
 	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(7) cw(1) cp(7) crew(artilleryman:3))
 	{cost 200}
@@ -201,16 +206,21 @@
 	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(9) crew(artilleryman:3))
 	{cost 270}
 }
+
+; Medium AA / heavy AA (GATE OUT)
 {"76mm_m1938"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(8) cw(1) cp(12) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(12) crew(artilleryman:4))
 	{cost 470}
 }
 {"85mm_52k"
-	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(26) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(26) crew(artilleryman:4))
 	{cost 650}
 }
 
-; AT WEAPONRY
+;========================
+; AT WEAPONRY (LIGHT KEEP)
+;========================
+
 {"37mm_m30"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(2) cw(1) cp(6) crew(artilleryman:4))
 	{cost 100}
@@ -227,10 +237,22 @@
 	("vehicle"  side(rus) period(mid) min_stage(5) max_stage(99) cw(1) cp(6) crew(artilleryman:4))
 	{cost 190}
 }
+
+; Medium/Heavy AT (GATE OUT)
 {"57mm_zis2"
-	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(16) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(16) crew(artilleryman:4))
 	{cost 450}
 }
+{"76mm_zis3"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(16) crew(artilleryman:4))
+	{cost 390}
+}
+{"100mm_bs3"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(26) crew(artilleryman:4))
+	{cost 950}
+}
+
+; Light field guns / infantry guns (KEEP — optional)
 {"76mm_bpk76"
 	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(4) cw(1) cp(8) crew(artilleryman:2))
 	{cost 250}
@@ -247,16 +269,12 @@
 	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(6) cw(1) cp(10) crew(artilleryman:4))
 	{cost 350}
 }
-{"76mm_zis3"
-	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(16) crew(artilleryman:4))
-	{cost 390}
-}
-{"100mm_bs3"
-	("vehicle"  side(rus) period(mid) min_stage(10) max_stage(99) cw(1) cp(26) crew(artilleryman:4))
-	{cost 950}
-}
 
-;HOWITZERS
+;========================
+; HOWITZERS / INDIRECT
+;========================
+
+; Mortars (KEEP)
 {"82mm_bm37"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(8) crew(artilleryman:2))
 	{cost 250}
@@ -265,6 +283,8 @@
 	("vehicle"  side(rus) period(mid) min_stage(5) max_stage(99) cw(1) cp(16) crew(artilleryman:2))
 	{cost 450}
 }
+
+; Light infantry/field guns (KEEP — optional)
 {"76mm_m1927"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(6) cw(1) cp(10) crew(artilleryman:4))
 	{cost 340}
@@ -273,55 +293,58 @@
 	("vehicle"  side(rus) period(mid) min_stage(6) max_stage(99) cw(1) cp(10) crew(artilleryman:4))
 	{cost 350}
 }
+
+; Heavy artillery (GATE OUT)
 {"107mm_m1910_30"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
 	{cost 400}
 }
 {"122mm_m1910"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
 	{cost 700}
 }
 {"122mm_m30"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
 	{cost 750}
 }
 {"122mm_a19"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(21) crew(artilleryman:5))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:5))
 	{cost 900}
 }
 {"152mm_ml20"
-	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
 	{cost 1000}
 }
 {"152mm_br2"
-	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
 	{cost 950}
 }
 {"203mm_b4"
-	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(1) cp(35) crew(artilleryman:5))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(35) crew(artilleryman:5))
 	{cost 1500}
 }
 {"280mm_br5"
-	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(1) cp(55) crew(artilleryman:5))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(55) crew(artilleryman:5))
 	{cost 1750}
 }
+
+; Rocket artillery (GATE OUT)
 {"300mm_m30"
-	("vehicle"  side(rus) period(mid) min_stage(8) max_stage(99) cw(2) cp(41) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(41) crew(artilleryman:4))
 	{cost 750}
 }
 {"300mm_m31"
-	("vehicle"  side(rus) period(mid) min_stage(9) max_stage(99) cw(2) cp(44) crew(artilleryman:4))
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(44) crew(artilleryman:4))
 	{cost 1000}
 }
 
 ;_________________________________________________
 ;|               Wheeled vehicles                 |
+;|     (Light support + supply; no combat cars)   |
 ;|________________________________________________|
 
-{"m72"
-	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_1:1) crew2(mgun_2:1))
-	{cost 60}
-}
+; --- KEEP: logistics / supply / fuel / engineers / transport ---
+
 {"gaz_aaa"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
 	{cost 25} {not_for_player_sale 1}
@@ -334,18 +357,7 @@
 	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
 	{cost 90}
 }
-{"gaz_aaa_maximx4"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
-	{cost 150}
-}
-{"gaz_aaa_72k"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(6) crew(artilleryman:4))
-	{cost 240}
-}
-{"yag10_29k"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(16) crew(artilleryman:4))
-	{cost 480}
-}
+
 {"zis5"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
 	{cost 20}
@@ -354,57 +366,17 @@
 	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew1(engineer_1:1) crew2(engineer_2:1))
 	{cost 80}
 }
-{"zis5_dshk"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
-	{cost 170}
-}
-{"zis6_bm8_48"
-	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(28) crew(tankman:2))
-	{cost 850}
-}
-{"zis6_bm13_16"
-	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(33) crew(tankman:2))
-	{cost 1100}
-}
-{"bm13_studebaker"
-	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(33) crew(tankman:2))
-	{cost 1100}
-}
-{"bm31_12"
-	("vehicle"  side(rus) period(mid) min_stage(9) max_stage(99) cw(2) cp(53) crew(tankman:2))
-	{cost 1600}
-}
+
 {"gaz67"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
 	{cost 15} {not_for_player_sale 1}
 }
-{"gaz67b"
-	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(0) crew(mgun_2:2))
-	{cost 70}
-}
-{"fai_m"
-	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 140}
-}
-{"ba20"
-	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 150}
-}
+
+; --- OPTIONAL KEEP: light carriers / scout transport (infantry support) ---
+
 {"t20"
 	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(2) cp(4) crew(tankman:2))
 	{cost 90}
-}
-{"ba6"
-	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 270}
-}
-{"ba10"
-	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 280}
-}
-{"ba64"
-	("vehicle2" side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(4) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 150}
 }
 {"universal_carrier_rus"
 	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew1(rifleman_1:2) crew2(tank_commander:1))
@@ -417,6 +389,76 @@
 {"m3a1e1_scout_mgun"
 	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(4) crew(rifleman_1:2))
 	{cost 200}
+}
+
+; --- GATED: combat bikes / armed trucks / AA / rockets / armored cars ---
+
+{"m72"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(0) crew1(rifleman_1:1) crew2(mgun_2:1))
+	{cost 60}
+}
+
+{"gaz_aaa_maximx4"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
+	{cost 150}
+}
+{"gaz_aaa_72k"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(6) crew(artilleryman:4))
+	{cost 240}
+}
+{"yag10_29k"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(16) crew(artilleryman:4))
+	{cost 480}
+}
+{"zis5_dshk"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
+	{cost 170}
+}
+
+; Rocket artillery trucks (Katyusha) – GATED
+{"zis6_bm8_48"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(28) crew(tankman:2))
+	{cost 850}
+}
+{"zis6_bm13_16"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(33) crew(tankman:2))
+	{cost 1100}
+}
+{"bm13_studebaker"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(33) crew(tankman:2))
+	{cost 1100}
+}
+{"bm31_12"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(53) crew(tankman:2))
+	{cost 1600}
+}
+
+; Armed jeep / combat car – GATED
+{"gaz67b"
+	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(0) crew(mgun_2:2))
+	{cost 70}
+}
+
+; Armored cars – GATED
+{"fai_m"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 140}
+}
+{"ba20"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 150}
+}
+{"ba6"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 270}
+}
+{"ba10"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 280}
+}
+{"ba64"
+	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(4) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 150}
 }
 
 
