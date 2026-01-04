@@ -210,11 +210,11 @@
 ; Medium AA / heavy AA (GATE OUT)
 {"76mm_m1938"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(12) crew(artilleryman:4))
-	{cost 470}
+	{cost 470}{not_for_player_sale 1}
 }
 {"85mm_52k"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(26) crew(artilleryman:4))
-	{cost 650}
+	{cost 650}{not_for_player_sale 1}
 }
 
 ;========================
@@ -241,15 +241,15 @@
 ; Medium/Heavy AT (GATE OUT)
 {"57mm_zis2"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(16) crew(artilleryman:4))
-	{cost 450}
+	{cost 450}{not_for_player_sale 1}
 }
 {"76mm_zis3"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(16) crew(artilleryman:4))
-	{cost 390}
+	{cost 390}{not_for_player_sale 1}
 }
 {"100mm_bs3"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(26) crew(artilleryman:4))
-	{cost 950}
+	{cost 950}{not_for_player_sale 1}
 }
 
 ; Light field guns / infantry guns (KEEP — optional)
@@ -297,45 +297,45 @@
 ; Heavy artillery (GATE OUT)
 {"107mm_m1910_30"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
-	{cost 400}
+	{cost 400}{not_for_player_sale 1}
 }
 {"122mm_m1910"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
-	{cost 700}
+	{cost 700}{not_for_player_sale 1}
 }
 {"122mm_m30"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
-	{cost 750}
+	{cost 750}{not_for_player_sale 1}
 }
 {"122mm_a19"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(21) crew(artilleryman:5))
-	{cost 900}
+	{cost 900}{not_for_player_sale 1}
 }
 {"152mm_ml20"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
-	{cost 1000}
+	{cost 1000}{not_for_player_sale 1}
 }
 {"152mm_br2"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
-	{cost 950}
+	{cost 950}{not_for_player_sale 1}
 }
 {"203mm_b4"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(35) crew(artilleryman:5))
-	{cost 1500}
+	{cost 1500}{not_for_player_sale 1}
 }
 {"280mm_br5"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(55) crew(artilleryman:5))
-	{cost 1750}
+	{cost 1750}{not_for_player_sale 1}
 }
 
 ; Rocket artillery (GATE OUT)
 {"300mm_m30"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(41) crew(artilleryman:4))
-	{cost 750}
+	{cost 750}{not_for_player_sale 1}
 }
 {"300mm_m31"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(44) crew(artilleryman:4))
-	{cost 1000}
+	{cost 1000}{not_for_player_sale 1}
 }
 
 ;_________________________________________________
@@ -395,70 +395,70 @@
 
 {"m72"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(0) crew1(rifleman_1:1) crew2(mgun_2:1))
-	{cost 60}
+	{cost 60}{not_for_player_sale 1}
 }
 
 {"gaz_aaa_maximx4"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
-	{cost 150}
+	{cost 150}{not_for_player_sale 1}
 }
 {"gaz_aaa_72k"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(6) crew(artilleryman:4))
-	{cost 240}
+	{cost 240}{not_for_player_sale 1}
 }
 {"yag10_29k"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(16) crew(artilleryman:4))
-	{cost 480}
+	{cost 480}{not_for_player_sale 1}
 }
 {"zis5_dshk"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
-	{cost 170}
+	{cost 170}{not_for_player_sale 1}
 }
 
 ; Rocket artillery trucks (Katyusha) – GATED
 {"zis6_bm8_48"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(28) crew(tankman:2))
-	{cost 850}
+	{cost 850}{not_for_player_sale 1}
 }
 {"zis6_bm13_16"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(33) crew(tankman:2))
-	{cost 1100}
+	{cost 1100}{not_for_player_sale 1}
 }
 {"bm13_studebaker"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(33) crew(tankman:2))
-	{cost 1100}
+	{cost 1100}{not_for_player_sale 1}
 }
 {"bm31_12"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(53) crew(tankman:2))
-	{cost 1600}
+	{cost 1600}{not_for_player_sale 1}
 }
 
 ; Armed jeep / combat car – GATED
 {"gaz67b"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(1) cp(0) crew(mgun_2:2))
-	{cost 70}
+	{cost 70}{not_for_player_sale 1}
 }
 
 ; Armored cars – GATED
 {"fai_m"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 140}
+	{cost 140}{not_for_player_sale 1}
 }
 {"ba20"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(5) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 150}
+	{cost 150}{not_for_player_sale 1}
 }
 {"ba6"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 270}
+	{cost 270}{not_for_player_sale 1}
 }
 {"ba10"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 280}
+	{cost 280}{not_for_player_sale 1}
 }
 {"ba64"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(4) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 150}
+	{cost 150}{not_for_player_sale 1}
 }
 
 
@@ -470,185 +470,185 @@
 ;LIGHT
 {"t27"
 	("vehicle"  side(rus) period(mid) min_stage(99) max_stage(99) cw(2) cp(4) crew(tankman:2))
-	{cost 90}
+	{cost 90}{not_for_player_sale 1}
 }
 {"t37a"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(6) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 120}
+	{cost 120}{not_for_player_sale 1}
 }
 {"t40"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(12) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 220}
+	{cost 220}{not_for_player_sale 1}
 }
 {"t30"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(12) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 280}
+	{cost 280}{not_for_player_sale 1}
 }
 {"t60"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(15) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 290}
+	{cost 290}{not_for_player_sale 1}
 }
 {"t60_bm8_24"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(28) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 850}
+	{cost 850}{not_for_player_sale 1}
 }
 {"t50"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(21) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 350}
+	{cost 350}{not_for_player_sale 1}
 }
 {"t70"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(18) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 320}
+	{cost 320}{not_for_player_sale 1}
 }
 {"t70m"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(18) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 320}
+	{cost 320}{not_for_player_sale 1}
 }
 {"bt2_da2"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(10) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 150}
+	{cost 150}{not_for_player_sale 1}
 }
 {"bt2"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 250}
+	{cost 250}{not_for_player_sale 1}
 }
 {"bt5"
 	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(94) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 290}
+	{cost 290}{not_for_player_sale 1}
 }
 {"bt7"
 	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(95) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 300}
+	{cost 300}{not_for_player_sale 1}
 }
 {"bt7a"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 320}
+	{cost 320}{not_for_player_sale 1}
 }
 {"t26_31"
 	("vehicle2" side(rus) period(mid) min_stage(91) max_stage(99) cw(4) cp(5) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 120}
+	{cost 120}{not_for_player_sale 1}
 }
 {"kht26"
 	("vehicle2" side(rus) period(mid) min_stage(92) max_stage(94) cw(4) cp(12) crew1(tankman:1) crew2(tank_commander:1))
-	{cost 300}
+	{cost 300}{not_for_player_sale 1}
 }
 {"t26_33"
 	("vehicle2" side(rus) period(mid) min_stage(92) max_stage(93) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 250}
+	{cost 250}{not_for_player_sale 1}
 }
 {"t26_39"
 	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(94) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 250}
+	{cost 250}{not_for_player_sale 1}
 }
 {"kht130"
 	("vehicle2" side(rus) period(mid) min_stage(93) max_stage(96) cw(4) cp(12) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 300}
+	{cost 300}{not_for_player_sale 1}
 }
 {"m3_stuart_late_rus"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(98) cw(4) cp(16) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 310}
+	{cost 310}{not_for_player_sale 1}
 }
 {"m3a1_stuart_rus"
 	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(4) cp(16) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 310}
+	{cost 310}{not_for_player_sale 1}
 }
 {"valentine2"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(99) cw(4) cp(21) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 330}
+	{cost 330}{not_for_player_sale 1}
 }
 {"valentine7"
 	("vehicle2" side(rus) period(mid) min_stage(97) max_stage(99) cw(4) cp(21) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 380}
+	{cost 380}{not_for_player_sale 1}
 }
 {"valentine9"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(4) cp(21) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 450}
+	{cost 450}{not_for_player_sale 1}
 }
 
 ;MEDIUM
 {"m3_lee_rus"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(99) cw(6) cp(23) crew1(tankman:6) crew2(tank_commander:1))
-	{cost 600}
+	{cost 600}{not_for_player_sale 1}
 }
 {"m4a2_75_early_rus"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 520}
+	{cost 520}{not_for_player_sale 1}
 }
 {"m4a2_75_late_rus"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 600}
+	{cost 600}{not_for_player_sale 1}
 }
 {"m4a2_76w_early_rus"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 710}
+	{cost 710}{not_for_player_sale 1}
 }
 {"m4a2_76w_late_rus"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 720}
+	{cost 720}{not_for_player_sale 1}
 }
 {"t28"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(6) cp(24) crew1(tankman:5) crew2(tank_commander:1))
-	{cost 330}
+	{cost 330}{not_for_player_sale 1}
 }
 {"t28_38"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(6) cp(24) crew1(tankman:5) crew2(tank_commander:1))
-	{cost 380}
+	{cost 380}{not_for_player_sale 1}
 }
 {"t28e"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(96) cw(6) cp(24) crew1(tankman:5) crew2(tank_commander:1))
-	{cost 400}
+	{cost 400}{not_for_player_sale 1}
 }
 {"t3476_40"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 420}
+	{cost 420}{not_for_player_sale 1}
 }
 {"t3476_41"
 	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(98) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 480}
+	{cost 480}{not_for_player_sale 1}
 }
 {"t3476_41e"
 	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(98) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 550}
+	{cost 550}{not_for_player_sale 1}
 }
 {"t3457_41"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 550}
+	{cost 550}{not_for_player_sale 1}
 }
 {"t3476_42"
 	("vehicle2" side(rus) period(mid) min_stage(98) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 520}
+	{cost 520}{not_for_player_sale 1}
 }
 {"t3476_43"
 	("vehicle2" side(rus) period(mid) min_stage(98) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 530}
+	{cost 530}{not_for_player_sale 1}
 }
 {"t3457_43"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 600}
+	{cost 600}{not_for_player_sale 1}
 }
 {"t3476_43_flame"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 620}
+	{cost 620}{not_for_player_sale 1}
 }
 {"t3485_44"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 700}
+	{cost 700}{not_for_player_sale 1}
 }
 {"t3485_44a"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 710}
+	{cost 710}{not_for_player_sale 1}
 }
 {"t3485_44b"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 710}
+	{cost 710}{not_for_player_sale 1}
 }
 {"t3485_44_flame"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 790}
+	{cost 790}{not_for_player_sale 1}
 }
 {"t3485_44a_flame"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 800}
+	{cost 800}{not_for_player_sale 1}
 }
 
 
@@ -656,113 +656,113 @@
 ;HEAVY
 {"churchill3"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 600}
+	{cost 600}{not_for_player_sale 1}
 }
 {"t35"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(30) crew1(tankman:9) crew2(tank_commander:1))
-	{cost 400}
+	{cost 400}{not_for_player_sale 1}
 }
 {"t35_late"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(30) crew1(tankman:9) crew2(tank_commander:1))
-	{cost 450}
+	{cost 450}{not_for_player_sale 1}
 }
 {"smk"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(33) crew1(tankman:6) crew2(tank_commander:1))
-	{cost 640}
+	{cost 640}{not_for_player_sale 1}
 }
 {"kv1_39"
 	("vehicle2" side(rus) period(mid) min_stage(94) max_stage(95) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 600}
+	{cost 600}{not_for_player_sale 1}
 }
 {"kv1_40"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 630}
+	{cost 630}{not_for_player_sale 1}
 }
 {"kv1_40e"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 680}
+	{cost 680}{not_for_player_sale 1}
 }
 {"kv1_41"
 	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 680}
+	{cost 680}{not_for_player_sale 1}
 }
 {"kv8"
 	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(8) cp(41) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 680}
+	{cost 680}{not_for_player_sale 1}
 }
 {"kv1_42"
 	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(99) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 740}
+	{cost 740}{not_for_player_sale 1}
 }
 {"kv2_40"
 	("vehicle2" side(rus) period(mid) min_stage(96) max_stage(98) cw(8) cp(39) crew1(tankman:5) crew2(tank_commander:1))
-	{cost 1000}
+	{cost 1000}{not_for_player_sale 1}
 }
 {"kv1s"
 	("vehicle2" side(rus) period(mid) min_stage(98) max_stage(99) cw(8) cp(40) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 700}
+	{cost 700}{not_for_player_sale 1}
 }
 {"kv85"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(46) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 1000}
+	{cost 1000}{not_for_player_sale 1}
 }
 {"is1_43"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(46) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 1050}
+	{cost 1050}{not_for_player_sale 1}
 }
 {"is2_43"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(51) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 1350}
+	{cost 1350}{not_for_player_sale 1}
 }
 {"is2_44"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(51) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 1400}
+	{cost 1400}{not_for_player_sale 1}
 }
 {"is2_45"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(51) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 1450}
+	{cost 1450}{not_for_player_sale 1}
 }
 
 ;SPG
 {"su26"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(98) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
-	{cost 380}
+	{cost 380}{not_for_player_sale 1}
 }
 {"zis30"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(97) cw(4) cp(21) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 450}
+	{cost 450}{not_for_player_sale 1}
 }
 {"su76"
 	("vehicle2" side(rus) period(mid) min_stage(95) max_stage(99) cw(4) cp(21) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 440}
+	{cost 440}{not_for_player_sale 1}
 }
 {"su85"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 650}
+	{cost 650}{not_for_player_sale 1}
 }
 {"su85m"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(36) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 720}
+	{cost 720}{not_for_player_sale 1}
 }
 {"su100"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(41) crew1(tankman:3) crew2(tank_commander:1))
-	{cost 1150}
+	{cost 1150}{not_for_player_sale 1}
 }
 {"su122"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 750}
+	{cost 750}{not_for_player_sale 1}
 }
 {"su152"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(45) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 1050}
+	{cost 1050}{not_for_player_sale 1}
 }
 {"isu122s"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(45) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 1150}
+	{cost 1150}{not_for_player_sale 1}
 }
 {"isu152"
 	("vehicle2" side(rus) period(mid) min_stage(99) max_stage(99) cw(8) cp(45) crew1(tankman:4) crew2(tank_commander:1))
-	{cost 1250}
+	{cost 1250}{not_for_player_sale 1}
 }
 {"conquest_blank"
 	("vehicle" 	side(rus) period(mid) min_stage(1) max_stage(99) crew(tankman:0) cw(0) cp(0))

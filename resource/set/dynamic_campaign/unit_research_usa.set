@@ -123,8 +123,8 @@
 	{"57mm_m1"		requires	"37mm_m3a1"			costs 2  position 2 33}
 	{"57mm_m1_late"	requires	"57mm_m1"			costs 1  position 3 33}
 	{"75mm_m1897"	requires	"57mm_m1"			costs 3  position 5 33}
-	{"76mm_m5_m1"	requires	"75mm_m1897"		costs 3  position 8 33}
-	{"76mm_m5_m6"	requires	"76mm_m5_m1" 		costs 2  position 9 33}
+	;{"76mm_m5_m1"	requires	"75mm_m1897"		costs 3  position 8 33}
+	;{"76mm_m5_m6"	requires	"76mm_m5_m1" 		costs 2  position 9 33}
 
 ;//---Infantry Guns---
 	{"75mm_m1a1"		requires 	"squad_82nd_eng_con(usa)" costs 1  position 6 9}

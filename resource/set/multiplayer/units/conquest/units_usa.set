@@ -176,11 +176,11 @@
 ; Medium/Heavy AA – GATED
 {"40mm_m1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:3) cw(1) cp(9))
-	{cost 300}
+	{cost 300} {not_for_player_sale 1}
 }
 {"90mm_m1a1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:5) cw(1) cp(25))
-	{cost 800}
+	{cost 800}{not_for_player_sale 1}
 }
 
 ; AT WEAPONRY (LIGHT KEEP)
@@ -193,23 +193,23 @@
 ; Medium/Heavy AT – GATED
 {"57mm_m1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(10))
-	{cost 400}
+	{cost 400}{not_for_player_sale 1}
 }
 {"57mm_m1_late"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(10))
-	{cost 410}
+	{cost 410}{not_for_player_sale 1}
 }
 {"75mm_m1897"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(16))
-	{cost 370}
+	{cost 370}{not_for_player_sale 1}
 }
 {"76mm_m5_m1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(21))
-	{cost 470}
+	{cost 470}{not_for_player_sale 1}
 }
 {"76mm_m5_m6"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:4) cw(1) cp(21))
-	{cost 500}
+	{cost 500}{not_for_player_sale 1}
 }
 
 ; HOWITZERS / INDIRECT (LIGHT KEEP)
@@ -226,7 +226,7 @@
 ; Heavy mortars / artillery – GATED
 {"107mm_m2"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(crew:2) cw(1) cp(16))
-	{cost 420}
+	{cost 420}{not_for_player_sale 1}
 }
 
 ; Light pack howitzers (KEEP)
@@ -242,35 +242,35 @@
 ; Divisional / heavy artillery – GATED
 {"105mm_m2a1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
-	{cost 750}
+	{cost 750}{not_for_player_sale 1}
 }
 {"105mm_m3"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(21))
-	{cost 700}
+	{cost 700}{not_for_player_sale 1}
 }
 {"114mm_m1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(20))
-	{cost 850}
+	{cost 850}{not_for_player_sale 1}
 }
 {"155mm_schneider_us"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:4) cw(1) cp(31))
-	{cost 980}
+	{cost 980}{not_for_player_sale 1}
 }
 {"155mm_m1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
-	{cost 1000}
+	{cost 1000}{not_for_player_sale 1}
 }
 {"155mm_gpf_us"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
-	{cost 1100}
+	{cost 1100}{not_for_player_sale 1}
 }
 {"155mm_m1a1_longtom"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(30))
-	{cost 1200}
+	{cost 1200}{not_for_player_sale 1}
 }
 {"203mm_m1"
 	("vehicle"  side(usa) period(mid) min_stage(99) max_stage(99) crew(artilleryman:5) cw(1) cp(35))
-	{cost 1500}
+	{cost 1500}{not_for_player_sale 1}
 }
 
 ;_________________________________________________
@@ -323,31 +323,31 @@
 
 {"willys_mb_30cal"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(1))
-	{cost 75}
+	{cost 75} {not_for_player_sale 1}
 }
 {"willys_mb_50cal"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(3))
-	{cost 95}
+	{cost 95}{not_for_player_sale 1}
 }
 {"ford_gpa"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(1))
-	{cost 75}
+	{cost 75}{not_for_player_sale 1}
 }
 {"wc52_50cal"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(3))
-	{cost 95}
+	{cost 95}{not_for_player_sale 1}
 }
 
 ; Combat AT truck
 {"m6_gmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(crew:3) cw(1) cp(8))
-	{cost 250}
+	{cost 250}{not_for_player_sale 1}
 }
 
 ; Armed scout cars / armored cars
 {"m3a1_scout"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(cav_driver:1) crew2(cav_gunner:2) cw(2) cp(2))
-	{cost 135}
+	{cost 135}{not_for_player_sale 1}
 }
 {"m3a1_commander"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(cav_driver:1) crew2(cav_gunner:2) cw(2) cp(2))
@@ -355,79 +355,79 @@
 }
 {"m20"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:2) crew2(vehicle_com:1) cw(2) cp(5))
-	{cost 155}
+	{cost 155}{not_for_player_sale 1}
 }
 {"m8_greyhound_early"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 300}
+	{cost 300}{not_for_player_sale 1}
 }
 {"m8_greyhound"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 310}
+	{cost 310}{not_for_player_sale 1}
 }
 
 ; Halftracks (combat/support weapons) – GATED
 {"m5_hst"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(driver:1) crew2(mg_crew:1) cw(1) cp(4))
-	{cost 100}
+	{cost 100}{not_for_player_sale 1}
 }
 {"m2_halftrack"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(6))
-	{cost 135}
+	{cost 135}{not_for_player_sale 1}
 }
 {"m3_halftrack"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(4))
-	{cost 85}
+	{cost 85}{not_for_player_sale 1}
 }
 {"m3a1_halftrack"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(ar1_driver:1) crew2(ar1_rifle:1) cw(2) cp(6))
-	{cost 105}
+	{cost 105}{not_for_player_sale 1}
 }
 
 ; AA halftracks – GATED
 {"m13_mgmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:2) crew2(vehicle_com:1) cw(2) cp(9))
-	{cost 210}
+	{cost 210}{not_for_player_sale 1}
 }
 {"m15a1_cgmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(11))
-	{cost 325}
+	{cost 325}{not_for_player_sale 1}
 }
 {"m16_mgmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:2) crew2(vehicle_com:1) cw(2) cp(11))
-	{cost 220}
+	{cost 220}{not_for_player_sale 1}
 }
 
 ; Mortar carriers – GATED
 {"m4_mortar_carrier"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 375}
+	{cost 375}{not_for_player_sale 1}
 }
 {"m4a1_mortar_carrier"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 375}
+	{cost 375}{not_for_player_sale 1}
 }
 {"m21_mortar_carrier"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew:3) crew2(vehicle_com:1) cw(2) cp(10))
-	{cost 400}
+	{cost 400}{not_for_player_sale 1}
 }
 
 ; Gun motor carriages / SPG – GATED
 {"m3_gmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:3) crew2(vehicle_com:1) cw(2) cp(21))
-	{cost 375}
+	{cost 375}{not_for_player_sale 1}
 }
 {"m3a1_gmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:3) crew2(vehicle_com:1) cw(2) cp(21))
-	{cost 375}
+	{cost 375}{not_for_player_sale 1}
 }
 {"t30_hmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(15))
-	{cost 375}
+	{cost 375}{not_for_player_sale 1}
 }
 {"t19_hmc"
 	("vehicle2" side(usa) period(mid) min_stage(99) max_stage(99) crew1(vehicle_crew_m1:4) crew2(vehicle_com:1) cw(2) cp(25))
-	{cost 750}
+	{cost 750}{not_for_player_sale 1}
 }
 
 
@@ -439,189 +439,189 @@
 ;LIGHT
 {"m3_stuart_early"
 	("vehicle2" side(usa) period(late) min_stage(92) max_stage(94) crew1(tankman:3) crew2(tank_commander:1) cw(4) cp(16))
-	{cost 290} ;// +25 for crew
+	{cost 290}{not_for_player_sale 1} ;// +25 for crew
 }
 {"m3_stuart_late"
 	("vehicle2" side(usa) period(late) min_stage(93) max_stage(95) crew1(tankman:3) crew2(tank_commander:1) cw(4) cp(16))
-	{cost 295} ;// +25 for crew
+	{cost 295}{not_for_player_sale 1} ;// +25 for crew
 }
 {"m3a1_stuart"
 	("vehicle2" side(usa) period(late) min_stage(94) max_stage(96) crew1(tankman:3) crew2(tank_commander:1) cw(4) cp(16))
-	{cost 300} ;// +25 for crew
+	{cost 300}{not_for_player_sale 1} ;// +25 for crew
 }
 {"m5a1_stuart"
 	("vehicle2" side(usa) period(late) min_stage(96) max_stage(99) crew1(tankman:3) crew2(tank_commander:1) cw(4) cp(21))
-	{cost 310} ;// +25 for crew
+	{cost 310}{not_for_player_sale 1} ;// +25 for crew
 }
 {"m5a1_stuart_late"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:3) crew2(tank_com_m3:1) cw(4) cp(21))
-	{cost 320} ;// +25 for crew
+	{cost 320}{not_for_player_sale 1} ;// +25 for crew
 }
 {"m8_hmc"
 	("vehicle2" side(usa) period(late) min_stage(96) max_stage(99) crew1(tankman_m1:3) crew2(tank_commander:1) cw(4) cp(21))
-	{cost 360} ;// +25 for crew
+	{cost 360}{not_for_player_sale 1} ;// +25 for crew
 }
 {"m24_chaffee"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(4) cp(20))
-	{cost 380} ;// +25 for crew
+	{cost 380}{not_for_player_sale 1} ;// +25 for crew
 }
 {"lvt4"
 	("vehicle2" side(usa) period(late) min_stage(97) max_stage(99) crew1(tankman_m3:5) crew2(tank_com_m3:1) cw(4) cp(4))
-	{cost 180} ;// +25 for crew
+	{cost 180}{not_for_player_sale 1} ;// +25 for crew
 }
 
 ;MEDIUM
 {"m3_lee"
 	("vehicle2" side(usa) period(late) min_stage(93) max_stage(97) crew1(tankman:6) crew2(tank_commander:1) cw(6) cp(23))
-	{cost 395} ;// +30 for crew
+	{cost 395}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4_75_early"
 	("vehicle2" side(usa) period(late) min_stage(94) max_stage(96) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 420} ;// +30 for crew
+	{cost 420}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4_75_early_armor"
 	("vehicle2" side(usa) period(late) min_stage(95) max_stage(97) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 430} ;// +30 for crew
+	{cost 430}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4_75_late"
 	("vehicle2" side(usa) period(late) min_stage(96) max_stage(99) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 430} ;// +30 for crew
+	{cost 430}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4_105"
 	("vehicle2" side(usa) period(late) min_stage(97) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(35))
-	{cost 570} ;// +30 for crew
+	{cost 570}{not_for_player_sale 1} ;// +30 for crew
 }
 
 {"m4a1_75_early"
 	("vehicle2" side(usa) period(late) min_stage(94) max_stage(96) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 420} ;// +30 for crew
+	{cost 420}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a1_75_mid"
 	("vehicle2" side(usa) period(late) min_stage(95) max_stage(97) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 430} ;// +30 for crew
+	{cost 430}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a1_75_mid_armor"
 	("vehicle2" side(usa) period(late) min_stage(95) max_stage(97) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 540} ;// +30 for crew
+	{cost 540}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a1_75_late"
 	("vehicle2" side(usa) period(late) min_stage(96) max_stage(99) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 440} ;// +30 for crew
+	{cost 440}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a1_75_dd"
 	("vehicle2" side(usa) period(late) min_stage(96) max_stage(98) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 440} ;// +30 for crew
+	{cost 440}{not_for_player_sale 1} ;// +30 for crew
 }
 {"t1e3_m4a1_75"
 	("vehicle2" side(usa) period(late) min_stage(96) max_stage(99) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 470} ;// +30 for crew
+	{cost 470}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a1_76w"
 	("vehicle2" side(usa) period(late) min_stage(97) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(35))
-	{cost 570} ;// +30 for crew
+	{cost 570}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a1_76w_mid"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(35))
-	{cost 590} ;// +30 for crew
+	{cost 590}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3_75_late"
 	("vehicle2" side(usa) period(late) min_stage(79) max_stage(99) crew1(tankman:4) crew2(tank_commander:1) cw(6) cp(30))
-	{cost 470} ;// +30 for crew
+	{cost 470} {not_for_player_sale 1};// +30 for crew
 }
 {"m4a3_75w_early"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(30))
-	{cost 480} ;// +30 for crew
+	{cost 480}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3_75w"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(30))
-	{cost 490} ;// +30 for crew
+	{cost 490} {not_for_player_sale 1};// +30 for crew
 }
 {"m4a3_75w_e4_5"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(30))
-	{cost 550} ;// +30 for crew
+	{cost 550}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3_105"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(35))
-	{cost 610} ;// +30 for crew
+	{cost 610}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3_105_hvss"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(35))
-	{cost 615} ;// +30 for crew
+	{cost 615}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3_76w"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(35))
-	{cost 670} ;// +30 for crew
+	{cost 670}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3_76w_hvss"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(35))
-	{cost 700} ;// +30 for crew
+	{cost 700} {not_for_player_sale 1};// +30 for crew
 }
 {"m4a3_76w_field1"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(40))
-	{cost 950} ;// +30 for crew
+	{cost 950}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3e2_75"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(40))
-	{cost 870} ;// +30 for crew
+	{cost 870}{not_for_player_sale 1};// +30 for crew
 }
 {"m4a3e2_76"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(45))
-	{cost 1150} ;// +30 for crew
+	{cost 1150}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m4a3_calliope"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(50))
-	{cost 1250} ;// +30 for crew
+	{cost 1250}{not_for_player_sale 1} ;// +30 for crew
 }
 
 
 ;HEAVY
 {"m26_pershing"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(50))
-	{cost 1200} ;// +30 for crew
+	{cost 1200}{not_for_player_sale 1} ;// +30 for crew
 }
 {"t26e4"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:4) crew2(tank_com_m3:1) cw(6) cp(55))
-	{cost 1700} ;// +30 for crew
+	{cost 1700} {not_for_player_sale 1};// +30 for crew
 }
 
 ;SPG
 {"m10_gmc"
 	("vehicle2" side(usa) period(late) min_stage(95) max_stage(97) crew1(tankman_m1:4) crew2(tank_com_m1:1) cw(6) cp(30))
-	{cost 550} ;// +30 for crew
+	{cost 550}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m10_gmc_late"
 	("vehicle2" side(usa) period(late) min_stage(97) max_stage(99) crew1(tankman_m1:4) crew2(tank_com_m1:1) cw(6) cp(30))
-	{cost 640} ;// +30 for crew
+	{cost 640}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m18_hellcat"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman_m1:4) crew2(tank_com_m1:1) cw(6) cp(30))
-	{cost 650} ;// +30 for crew
+	{cost 650}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m18_hellcat_late"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m1:4) crew2(tank_com_m1:1) cw(6) cp(30))
-	{cost 660} ;// +30 for crew
+	{cost 660}{not_for_player_sale 1} ;// +30 for crew
 }
 {"m36_gmc"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m1:4) crew2(tank_com_m1:1) cw(6) cp(40))
-	{cost 950}
+	{cost 950}{not_for_player_sale 1}
 }
 {"m36b1_gmc"
 	("vehicle2" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m1:4) crew2(tank_com_m1:1) cw(6) cp(40))
-	{cost 1040}
+	{cost 1040}{not_for_player_sale 1}
 }
 
 
 {"m7_hmc"
 	("vehicle2" side(usa) period(late) min_stage(98) max_stage(99) crew1(tankman:5) crew2(tank_commander:1) cw(4) cp(34))
-	{cost 1050}
+	{cost 1050}{not_for_player_sale 1}
 }
 {"m7b1_hmc"
 	("vehicle3" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:3) crew2(tankman:2) crew3(tank_com_m3:1) cw(4) cp(34))
-	{cost 1060}
+	{cost 1060}{not_for_player_sale 1}
 }
 {"m12_gmc"
 	("vehicle3" side(usa) period(late) min_stage(99) max_stage(99) crew1(tankman_m3:2) crew2(tankman_m1:3) crew3(tank_com_m1:1) cw(4) cp(39))
-	{cost 1150}
+	{cost 1150}{not_for_player_sale 1}
 }
 
 {"conquest_blank"
