@@ -5,11 +5,12 @@
 This mod restricts what unit categories can be fielded in
 Dynamic Conquest/Campaign by editing the conquest preset under:
 
-  set/multiplayer/games/campaing_capture_the_flag.set
+  set/multiplayer/units/conquest/units_*.set
 
 Changes:
 - Only infantry and emplacement armies can be fielded. light vehicles (trucks, cars, transports, supply). Airstriks can still be called in. 
-- could make other versions that are era specific
+- i could make other versions that are era specific
+- Some units remain researchable to player but cannot be deployed by design.
   
 
 Install:
